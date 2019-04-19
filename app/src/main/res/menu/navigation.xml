@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_waiting"
+        android:title="Waiting"
+        android:icon="@drawable/ic_access_time"/>
+
+
+    <item
+        android:id="@+id/navigation_in_process"
+        android:title="In process"
+        android:icon="@drawable/ic_in_process"/>
+
+    <item
+        android:id="@+id/navigation_ready"
+        android:title="Ready"
+        android:icon="@drawable/ic_to_deliver"/>
+    <item
+        android:id="@+id/navigation_delivered"
+        android:title="Delivered"
+        android:icon="@drawable/ic_ready"/>
+</menu>
